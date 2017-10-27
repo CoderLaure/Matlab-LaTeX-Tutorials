@@ -44,7 +44,7 @@ hfig.PaperSize = [hfig.Position(3) hfig.Position(4)];
 
 %- Print
 filename = 'myfigure';
-%print(hfig,filename,'-dpdf','-painters','-fillpage')% '-bestfit' 
+%print(hfig,filename,'-dpdf','-painters','-fillpage')% '-bestfit'
 %print(hfig,filename,'-djpeg')
 
 % LaTeX -------------------------------------------------------------
@@ -59,7 +59,13 @@ filename = 'myfigure';
 % \end{figure} 
 
 
-
+% Get both LaTeX and powerpoint in one run ---------------------------- 
+% 
+% filename = 'myfigure';
+% set(findall(hfig,'-property','FontSize'),'FontSize',fontsize)
+% print(hfig,filename,'-dpdf','-painters','-fillpage')% '-bestfit' 
+% set(findall(hfig,'-property','FontSize'),'FontSize',18)
+% print(hfig,filename,'-djpeg')
 
 
 
