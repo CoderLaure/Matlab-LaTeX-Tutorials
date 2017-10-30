@@ -65,7 +65,7 @@ filename = 'myfigure';
 % set(findall(hfig,'-property','FontSize'),'FontSize',fontsize)
 % print(hfig,filename,'-dpdf','-painters','-fillpage')% '-bestfit' 
 % set(findall(hfig,'-property','FontSize'),'FontSize',18)
-% print(hfig,filename,'-djpeg')
+% print(hfig,filename,'-djpeg') 
 
 
 
