@@ -92,6 +92,6 @@ hfig.PaperSize = [hfig.Position(3) hfig.Position(4)];
 filename = 'colorbarfigure';
 %print(hfig,filename,'-dpdf','-painters','-fillpage')% '-bestfit'
 %print(hfig,filename,'-djpeg')
-
+ 
 
 
