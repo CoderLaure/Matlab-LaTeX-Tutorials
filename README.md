@@ -8,3 +8,7 @@ Since 2014b, Matlab has dramatically improved its figure handling (from terrible
 Here's what I suggest:
 1. Use PdfLaTeX for your files, and print your figures in pdf. Copy paste the code snippet after your figure and watch the magic happen! 
 2. For Powerpoint, print your figures in jpg and increase fontsize for readability. And you're done! 
+
+## Place one colorbar on the right of a 2x2 subplot in Matlab
+
+This code example lets you place a unique colorbar on the right of 4 subplot figures arranged in a 2x2 grid. At the moment, fit needs to be manually adjusted. 
